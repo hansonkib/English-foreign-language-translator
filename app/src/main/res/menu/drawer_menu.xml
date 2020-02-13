@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeItem" android:title="home" android:icon="@drawable/home"/>
+    <item android:id="@+id/historyItem"  android:title="Translation History" android:icon="@drawable/history"/>
+    <item android:id="@+id/favouriteItem"  android:title="Favourites" android:icon="@drawable/favourite"/>
+
+        <item android:id="@+id/rateItem" android:title="Rate this App" android:icon="@drawable/rate"/>
+        <item android:id="@+id/shareApp" android:title="share this App" android:icon="@drawable/share"/>
+
+</menu>

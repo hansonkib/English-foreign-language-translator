@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/hint_text"></com.google.android.material.textfield.TextInputLayout>-->
+    <EditText
+        android:id="@+id/origText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter text"
+        android:layout_margin="10dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/FinText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="translated text"
+        android:layout_margin="10dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="translate"
+        android:layout_marginHorizontal="20dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="from france to kiswahili"
+    android:textAlignment="center"
+    android:textColor="@android:color/holo_red_dark"/>
+    <EditText
+        android:id="@+id/frenchs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter text"
+        android:layout_margin="10dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/kis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="translated text"
+        android:layout_margin="10dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/translatekf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="translate"
+        android:layout_marginHorizontal="20dp"/>
+
+
+
+</LinearLayout>

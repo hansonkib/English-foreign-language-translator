@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+<EditText
+    android:id="@+id/textToTranslate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter text to translate Kiswahili/French"
+    android:outlineSpotShadowColor="@color/colorPrimaryDark"
+    />
+        <Button
+            android:id="@+id/toFrench"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="translate to French"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/duble_arrors"/>
+    <Button
+        android:id="@+id/toKiswahili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="translate to kiswahili"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="translation results"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/translatedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="translated text"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+            android:outlineProvider="bounds"/>
+    <Button
+        android:id="@+id/favourite"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add to favourites"
+        android:drawableRight="@drawable/favourite"
+        android:paddingBottom="5dp"/>
+            <Button
+                android:id="@+id/speech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="convert to speech"
+                android:drawableRight="@drawable/audio"
+                android:paddingBottom="5dp"
+                />
+
+
+
+
+</LinearLayout>
